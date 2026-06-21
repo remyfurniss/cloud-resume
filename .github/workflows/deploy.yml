@@ -36,4 +36,10 @@ jobs:
         run: terraform apply -auto-approve
 
       - name: Upload website to S3
-        run: aws s3 sync website/ s3://remy-resume-bucket-terraform
+        run: aws s3 sync website/ s3://remy-resume-bucket-terraform --delete
+
+      - name: Invalidate CloudFront cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id E27VAKWO5KBW32 \
+            --paths "/*"
