@@ -141,7 +141,7 @@ ul
 {
 	list-style-type:none;
 	margin-top:-10px;
-	max-width:570px;
+	max-width: none;
 	padding:0;
 }
 
@@ -155,6 +155,17 @@ ul
 	margin:15px 15px 0 0;
 	padding:10px;
 	text-align:justify;
+}
+
+.bullet-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.bullet-list li {
+    display: list-item;
+    margin: 6px 0;
 }
 
 @media screen and (max-width: 48em) {
