@@ -40,9 +40,8 @@ h1
 	float:right;
 	height:100%;
 	margin-left:-1px;
-	min-width:256px;
 	position:fixed;
-	width:33.33%;
+	width:25%;
   
 }
 
@@ -51,7 +50,7 @@ h1
 	float:right;
 	height:100%;
 	position:relative;
-	width:66.66%;
+	width:75%;
 }
 
 
@@ -59,7 +58,7 @@ h1
 {
 	background:rgba(0,0,0,.001);
 	bottom:0;
-	height:290px;
+	height:100px;
 	left:0;
 	margin:auto;
 	position:absolute;
@@ -113,7 +112,7 @@ h1
 {
 	margin:0 auto;
 	max-width:975px;
-	padding:3em;
+	padding:1em;
 }
 
 .inner h1
@@ -179,18 +178,18 @@ ul
 	color:rgba(0,0,0,.75);
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 58em) {
 	.right,.left
 	{
 		float:none;
-    position:relative !important;
+    	position:relative !important;
 		width:100%;
-    min-height:500px;
+    	min-height:500px;
 	}
-  .handmade {
-  text-align:center !important;
-  margin-top:0px !important;
-}
+	.handmade {
+		text-align:center !important;
+		margin-top:0px !important;
+	}
 
 @media screen and (max-width: 75em) {
     body
