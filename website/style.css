@@ -126,6 +126,12 @@ h1
 	color:rgba(0,0,0,.5);
 }
 
+.inner b
+{
+	color:rgba(0,0,0,.9);
+	font-style:normal;
+}
+
 .inner p em
 {
 	color:rgba(0,0,0,1);
@@ -166,6 +172,11 @@ ul
 .bullet-list li {
     display: list-item;
     margin: 6px 0;
+	color:rgba(0,0,0,.5);
+}
+
+.bullet-list li::marker {
+	color:rgba(0,0,0,.75);
 }
 
 @media screen and (max-width: 48em) {
