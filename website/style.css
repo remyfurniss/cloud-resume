@@ -217,3 +217,22 @@ ul
   font-size: 1.25em;
   margin-left:5px;
 }}
+
+.social-links
+{
+    text-align:center;
+    margin-top:15px;
+}
+
+.social-links a
+{
+    font-size:2rem;
+    margin:0 10px;
+    color:#333;
+    text-decoration:none;
+}
+
+.social-links .fa-linkedin
+{
+    color:#0077B5;
+}
